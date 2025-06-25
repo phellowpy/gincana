@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+</head>
+<body>
+      <h1>Banco de dados</h1>
+      <p>O banco de dados foi feito no site <a href="https://app.dynobird.com/">Dynobird</a>, o link do arquivo podera ser acessado <a href="https://app.dynobird.com/?action=open&id=e2271237-0136-492b-9d54-78dc4cbb82be">aqui.</a></p>
+
+      <h1>Back-end</h1>
+      <p>O back end foi feito no site <a href="https://www.programiz.com/python-programming/online-compiler/">Programiz</a>, o codigo esta a baixo junto com um exemplo de input, para melhores resultados coloque o codigo diretamente no site indicado.</p>
+      <br>
+
+      <div class="terminal">
+            <div class="terminal-header">
+              <span class="title">Codigo Back-end</span>
+            </div>
+            <pre class="terminal-body">
+        <span class="output">
+            questoes = False
+            contador = 0
+            
+            print("---------QUIZ DE PROGRAMAÇÃO---------\n")
+            print("10 perguntas sobre programação serão feitas nesse quiz.")
+            print("As possíveis respostas são: Java, Php, Python, C#.")
+            print("Escreva as respostas para as questões a seguir com a primeira letra em maiúsculo!\n")
+            
+            while questoes == False:
+                primeira_questao = input("1. Qual linguagem foi desenvolvida pela Microsoft e é ótima para desenvolvimento Windows?\nResposta: ")
+               
+                segunda_questao = input("\n2. Qual linguagem é a base do WordPress e focada em desenvolvimento web?\nResposta: ")
+               
+                terceira_questao = input("\n3. Qual linguagem usa a JVM (Java Virtual Machine) para execução?\nResposta: ")
+               
+                quarta_questao = input("\n4. Qual linguagem é famosa por sua sintaxe simples e legibilidade?\nResposta: ")
+               
+                quinta_questao = input("\n5. Qual linguagem é a principal para desenvolvimento com Unity?\nResposta: ")
+               
+                sexta_questao = input("\n6. Qual linguagem é mais usada para scripts do lado do servidor em websites?\nResposta: ")
+               
+                setima_questao = input("\n7. Qual linguagem é a principal para desenvolvimento Android?\nResposta: ")
+               
+                oitava_questao = input("\n8. Qual linguagem é mais usada em inteligência artificial e análise de dados?\nResposta: ")
+               
+                nona_questao = input("\n9. Qual linguagem usa 'echo' para exibir saída?\nResposta: ")
+               
+                decima_questao = input("\n10. Qual linguagem define funções com a palavra-chave 'def'?\nResposta: ")
+            
+                break
+            
+            def correcao():
+                global contador
+                if primeira_questao == "C#":
+                    contador += 1
+                if segunda_questao == "Php":
+                    contador += 1
+                if terceira_questao == "Java":
+                    contador += 1
+                if quarta_questao == "Python":
+                    contador += 1
+                if quinta_questao == "C#":
+                    contador += 1
+                if sexta_questao == "Php":
+                    contador += 1
+                if setima_questao == "Java":
+                    contador += 1
+                if oitava_questao == "Python":
+                    contador += 1
+                if nona_questao == "Php":
+                    contador += 1
+                if decima_questao == "Python":
+                    contador += 1
+            
+            correcao()
+            
+            print(f"\nVocê acertou {contador} de 10 perguntas.")
+            
+            quiz2 = input("Deseja jogar outro quiz? (Sim/Não) ")
+            
+            if quiz2.lower() == "sim":
+                print("Ótimo! Vamos para o próximo quiz!\n")
+               
+                questoes2 = False
+                while questoes2 == False:
+                    decima_primeira_questao = input("11. Qual linguagem usa chaves {} para delimitar blocos de código?\nResposta: ")
+                   
+                    decima_segunda_questao = input("\n12. Qual linguagem foi criada pela Microsoft?\nResposta: ")
+                   
+                    decima_terceira_questao = input("\n13. Qual linguagem tem o lema 'Batteries included'?\nResposta: ")
+                   
+                    decima_quarta_questao = input("\n14. Qual linguagem usa ponto e vírgula ao final de cada instrução?\nResposta: ")
+                   
+                    decima_quinta_questao = input("\n15. Qual linguagem é a base do WordPress?\nResposta: ")
+                   
+                    break
+            
+                def correcao2():
+                    global contador
+                    if decima_primeira_questao == "Java":
+                        contador += 1
+                    if decima_segunda_questao == "C#":
+                        contador += 1
+                    if decima_terceira_questao == "Python":
+                        contador += 1
+                    if decima_quarta_questao == "Java":
+                        contador += 1
+                    if decima_quinta_questao == "Php":
+                        contador += 1
+                       
+                correcao2()
+            
+                print(f"\nVocê acertou {contador} de 15 perguntas.")
+                print("Obrigado por jogar!")
+               
+            elif quiz2.lower() == "não":  # Corrigido para usar .lower() para comparação
+                print("Obrigado por responder!")
+        </span>
+            </pre>
+          </div>
+<br>
+          <div class="terminal">
+            <div class="terminal-header">
+              <span class="title">OutPut</span>
+            </div>
+            <pre class="terminal-body">
+        <span class="output">
+            ---------QUIZ DE PROGRAMAÇÃO---------
+
+            10 perguntas sobre programação serão feitas nesse quiz.
+            As possíveis respostas são: Java, Php, Python, C#.
+            Escreva as respostas para as questões a seguir com a primeira letra em maiúsculo!
+            
+            1. Qual linguagem foi desenvolvida pela Microsoft e é ótima para desenvolvimento Windows?
+            Resposta:
+            
+            2. Qual linguagem é a base do WordPress e focada em desenvolvimento web?
+            Resposta:
+            
+            3. Qual linguagem usa a JVM (Java Virtual Machine) para execução?
+            Resposta:
+            
+            4. Qual linguagem é famosa por sua sintaxe simples e legibilidade?
+            Resposta:
+            
+            5. Qual linguagem é a principal para desenvolvimento com Unity?
+            Resposta:
+            
+            6. Qual linguagem é mais usada para scripts do lado do servidor em websites?
+            Resposta:
+            
+            7. Qual linguagem é a principal para desenvolvimento Android?
+            Resposta:
+            
+            8. Qual linguagem é mais usada em inteligência artificial e análise de dados?
+            Resposta:
+            
+            9. Qual linguagem usa 'echo' para exibir saída?
+            Resposta:
+            
+            10. Qual linguagem define funções com a palavra-chave 'def'?
+            Resposta:
+            
+            Você acertou 0 de 10 perguntas.
+            Deseja jogar outro quiz? (Sim/Não) sim
+            Ótimo! Vamos para o próximo quiz!
+            
+            11. Qual linguagem usa chaves {} para delimitar blocos de código?
+            Resposta:
+            
+            12. Qual linguagem foi criada pela Microsoft?
+            Resposta:
+            
+            13. Qual linguagem tem o lema 'Batteries included'?
+            Resposta:
+            
+            14. Qual linguagem usa ponto e vírgula ao final de cada instrução?
+            Resposta:
+            
+            15. Qual linguagem é a base do WordPress?
+            Resposta:
+            
+            Você acertou 0 de 15 perguntas.
+            Obrigado por jogar!
+            
+            === Code Execution Successful ===
+        </span>
+            </pre>
+          </div>
+
+
+
+
+          <h1>Senha</h1>
+          <p>O codigo de senha de anagrama foi feito no site <a href="https://www.programiz.com/python-programming/online-compiler/">Programiz</a>, o codigo esta a baixo junto com um exemplo de input, para melhores resultados coloque o codigo diretamente no site indicado.</p>
+          <br>
+
+          <div class="terminal">
+            <div class="terminal-header">
+              <span class="title">Codigo Anagrama</span>
+            </div>
+            <pre class="terminal-body">
+        <span class="output">
+            import random
+
+            palavras = ["php", "java", "python", "C#"]
+            
+            texto = ''.join(palavras)
+            
+            letras = list(texto)
+            random.shuffle(letras)
+            anagrama = ''.join(letras)
+            
+            print(f"Palavras utilizadas: {palavras}")
+            print(f"Anagrama: {anagrama}")
+        </span>
+            </pre>
+          </div>
+<br>
+          <div class="terminal">
+            <div class="terminal-header">
+              <span class="title">OutPut</span>
+            </div>
+            <pre class="terminal-body">
+        <span class="output">
+            Palavras utilizadas: ['php', 'java', 'python', 'C#']
+            Anagrama: ppvhChpjn#tyaao
+        </span>
+            </pre>
+          </div>
+
+</body>
+</html>

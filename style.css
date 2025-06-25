@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+body {
+      font-family: "Comic Relief", system-ui;
+      margin: 20px;
+      background-color: rgb(52, 52, 52);
+      color: white;
+}
+
+h1, p {
+      text-align: center;
+}
+
+a {
+      color: #33ff33;
+}
+
+ .terminal {
+      background-color: #000;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(129, 191, 129, 0.5);
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .terminal-header {
+      background-color: #222;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #bbb;
+      font-size: 14px;
+    }
+    
+    .btn {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    
+    .red {
+      background-color: #f96256;
+    }
+    
+    .yellow {
+      background-color: #fdbc3d;
+    }
+    
+    .green {
+      background-color: #34c84a;
+    }
+    
+    .title {
+      flex-grow: 1;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    .terminal-body {
+      padding: 16px;
+      font-size: 14px;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      color: #33ff33;
+      background-color: #000;
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+    
+    .prompt {
+      color: #0f0;
+      font-weight: bold;
+    }
+    
+    .command {
+      color: #33ff33;
+    }
+    
+    .output {
+      color: #ccc;
+      margin-left: 20px;
+      white-space: pre-wrap;
+    }
+
+    .flex {
+      display: flex;
+
+    }
+    
